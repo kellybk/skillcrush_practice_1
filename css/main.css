@@ -1,0 +1,441 @@
+/***** Base Styles *****/
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3c4761;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+
+h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 42px;
+	line-height: 48px;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 100px 0 0 0;
+	margin: 0px;
+}
+
+h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+	color: #3c4761;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 0px;
+}
+
+h5 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #30bae7;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 0px;
+}
+
+p span {
+	color: #fff;
+	font-weight: 400;
+	text-align: left;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+	
+.underline {
+	height: 40px;
+	width: 85px;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+/***** Grid *****/
+
+.full-width{
+	width: 1200px;
+	margin: 0px auto;
+	clear: both;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.quarter-width{
+	width: 300px;
+	float: left;
+}
+
+section {
+	margin: 0px auto;
+	padding: 0px;
+	clear: both;
+}
+
+.clear-both {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px;
+	clear: both;
+}
+
+/***** Header *****/
+
+header {
+	height: 550px;
+	background-color: #87509c;
+	margin: 0 auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+header img {
+	width: 120px;
+	float: left;
+	padding: 50px 0 0 0;
+}
+
+header nav {
+	float: right;
+	padding: 50px 0 0 0;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a {
+	color: #ffffff;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 50px 0 0 15px;
+	letter-spacing: 1;
+}
+
+header nav ul li a:hover {
+	color: #D74680;
+}
+
+#work-with-us {
+	width: 290px;
+	height: 65px;
+	background-color: #eb7d4b;
+	border-radius: 5px;
+	margin: 70px auto;
+	border-bottom: 3px solid #c86a40;
+	clear: both;
+}
+
+#work-with-us p {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+header h1{
+	padding:100px 0 0 0;
+}
+
+
+/****** Serivices *****/
+
+#services {
+	height: 750px;
+	background-color: #17c2a4;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#services .underline {
+	border-bottom: 5px solid #14a58c;
+}
+
+#services h4 {
+	color: #fff;
+}
+
+#services p {
+	color: #fff;
+}
+
+#services img {
+	margin: 50px 0 20px 0;
+}
+
+
+/****** Team ******/
+
+#team {
+	height: 920px;
+	background-color: #e7f1f8;
+}
+
+#team h2{
+	color: #3c4761;
+}
+
+#team .underline {
+	border-bottom: 5px solid #c8d9e5;
+}
+
+#team h3{
+	color: #3c4761;
+}
+
+#team .mugshot {
+	padding: 50px 0 0 0;
+}
+
+#team .social-media {
+	padding: 5px;
+}
+
+
+/***** SKills *****/
+
+#skills {
+	height:650px;
+	background-color: #fff;
+}
+
+#skills .underline {
+	border-bottom: 5px solid #dfe8ed;
+}
+
+#skills h2{
+	color: #3c4761;
+}
+
+#skills h3 {
+	color: #3c4761;
+}
+
+#skills img {
+	margin: 20px auto;
+}
+
+
+/***** Portfolio *****/
+
+#portfolio {
+	height: 1350px;
+	background-color: #ffdd99;
+}
+
+#portfolio .full-width {
+	clear: both;
+}
+
+#portfolio .underline {
+	border-bottom: 5px solid #ebc985;
+}
+
+#portfolio h2 {
+	color: #3c4761;
+}
+
+#portfolio .portfolio-nav {
+	width: 540px;
+	height: 50px;
+	margin: 30px auto;
+}
+
+#portfolio .portfolio-buttons a {
+	width: 85px;
+	height: 35px;
+	float: left;
+	background-color: #ebc985;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #3c4761;
+	font-size: 18px;
+	margin: 0 25px 0 25px;
+	padding: 10px 0 0 0;
+}
+
+
+#portfolio .portfolio-buttons a:hover{
+	width: 85px;
+	height: 35px;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #3c4761;
+	font-size: 18px;
+	margin: 0 25px 0 25px;
+}
+
+#portfolio .half-width {
+	float: left;
+	margin: 20px 0;
+}
+
+#portfolio h4 {
+	margin: 20px 0 0 0;
+}
+
+#more-work {
+	width: 290px;
+	height: 65px;
+	background-color: #17c2a4;
+	border-radius: 5px;
+	margin: 100px auto;
+	border-bottom: 3px solid #14a58c;
+}
+
+#more-work p {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+/****** Tesimonials *****/
+
+#testimonials {
+	height: 800px;
+	background-color: #d74680;
+}
+
+
+#testimonials .underline {
+	border-bottom: 5px solid #b73c6d;
+}
+
+#testimonials h4 {
+	color: #fff;
+}
+
+#testimonials .half-width {
+	float: left;
+	margin: 20px 0;
+}
+
+#testimonials .testimonial-image {
+	float: left;
+	width: 100px;
+	
+}
+
+#testimonials .testimonial-text {
+	float: left;
+	width: 410px;
+	padding: 0 50px 0 40px;
+	text-align: left;
+}
+
+#testimonials h3 {
+	text-align: left;
+}
+
+#testimonials h3 span {
+	text-align: left;
+	color: #ffdd99;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+/***** Contact *****/
+
+#contact {
+	height: 450px;
+	background-color: #3c5499;
+	clear: both;
+}
+
+#contact .underline {
+	border-bottom: 5px solid #273a71;
+}
+
+#contact h4 {
+	color: #fff;
+}
+
+#email-us {
+	width: 290px;
+	height: 65px;
+	background-color: #30bae7;
+	border-radius: 5px;
+	margin: 70px auto;
+	border-bottom: 3px solid #299ec5;
+}
+
+#email-us p {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+/***** Footer *****/
+
+footer {
+	height: 85px;
+	background-color: #344b8e;
+	margin: 0 auto;
+}
+
+footer nav {
+	float: left;
+	padding: 20px 50px 0 50px;
+}
+
+footer nav ul li {
+	display: inline-block;
+	padding: 0 25px 0 25px;
+}
+
+footer nav ul li a {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	font-weight: 600;
+	list-style: none;
+	text-decoration: none;
+}
+
+footer nav ul li a:hover {
+	color: #30bae7;
+}
+
+
